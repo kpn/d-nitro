@@ -1,0 +1,12 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+.idea

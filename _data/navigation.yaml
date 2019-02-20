@@ -1,0 +1,8 @@
+main:
+  - title: "Projects"
+    url: /projects/
+    children:
+      - title: "Katka"
+        url: /projects/katka/
+  - title: "Contact"
+    url: /pages/contact/

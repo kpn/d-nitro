@@ -1,0 +1,51 @@
+timezone: Europe/Amsterdam
+theme: minimal-mistakes-jekyll
+
+title: "D-Nitro"
+title_separator: "-"
+description: "D-Nitro  public github pages"
+comments: false
+search: false
+author: team
+
+footer_scripts:
+  - https://use.fontawesome.com/releases/v5.1.0/js/all.js
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      sidebar:
+        nav: "main"
+      header:
+        show_overlay_excerpt: false
+        overlay_image: /assets/img/headers/d-nitro.jpg
+        overlay_filter: rgba(0, 0, 0, 0.2)
+  - scope:
+      path: pages
+    values:
+      layout: single
+      classes: wide
+      sidebar:
+        nav: "main"
+      header:
+        show_overlay_excerpt: false
+        overlay_image: /assets/img/headers/roadmap.jpg
+        overlay_filter: rgba(18, 84, 173, 0.5)
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      classes: wide
+      sidebar:
+        nav: "main"
+      header:
+        overlay_image: /assets/img/headers/projects.jpg
+        show_overlay_excerpt: false
+        overlay_filter: rgba(18, 84, 173, 0.5)

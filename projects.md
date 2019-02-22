@@ -2,7 +2,7 @@
 title: "Projects"
 header:
   show_overlay_excerpt: false
-  overlay_image: /assets/img/headers/projects.jpg
+  overlay_image: assets/img/headers/projects.jpg
   overlay_filter: rgba(18, 84, 173, 0.5)
 ---
 

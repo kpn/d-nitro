@@ -6,7 +6,7 @@ header:
     show_overlay_excerpt: true
 
 team:
-  - image_path: /assets/img/features/team.jpg
+  - image_path: assets/img/features/team.jpg
     alt: "Team"
     title: "Team"
     excerpt: "
@@ -14,10 +14,10 @@ team:
         development processes. Our focus is to enable and accelerate other 
         teams whether that is culture, process or tools. We love to experiment,
         pave the road and have a lot of fun along the way."
-    url: /pages/contact/
+    url: pages/contact
     btn_label: "Contact us"
 purpose:
-  - image_path: /assets/img/features/roadmap.jpg
+  - image_path: assets/img/features/roadmap.jpg
     alt: "Purpose"
     title: "Purpose"
     excerpt: "
@@ -26,17 +26,17 @@ purpose:
         about defining common processes and configuring common tools that can 
         be reused in different development projects."
 projects:
-  - image_path: /assets/img/features/development.jpg
+  - image_path: assets/img/features/development.jpg
     alt: "Development"
     title: "Development"
     excerpt: "
         We develop tools and plugins to enhance and integrate new or existing 
         tools and applications. Our projects are mostly aimed at improving and
         adding automation to development processes."
-    url: /projects/
+    url: projects
     btn_label: "Our Projects"
 opensource:
-  - image_path: /assets/img/features/opensource.png
+  - image_path: assets/img/features/opensource.png
     alt: "Open Source"
     title: "Open Source"
     excerpt: "

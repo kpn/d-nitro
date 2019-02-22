@@ -1,8 +1,8 @@
 main:
   - title: "Projects"
-    url: /projects/
+    url: /projects
     children:
       - title: "Katka"
-        url: /projects/katka/
+        url: /projects/katka
   - title: "Contact"
-    url: /pages/contact/
+    url: /pages/contact

@@ -1,5 +1,7 @@
 timezone: Europe/Amsterdam
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.15.2"
+plugins:
+  - jekyll-include-cache
 
 title: "D-Nitro"
 title_separator: "-"
@@ -7,6 +9,7 @@ description: "D-Nitro  public github pages"
 comments: false
 search: false
 author: team
+baseurl: /d-nitro
 
 footer_scripts:
   - https://use.fontawesome.com/releases/v5.1.0/js/all.js
